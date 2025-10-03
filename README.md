@@ -5,7 +5,7 @@ node server.js -- server
 
 -----------------------------------------------------------
 
-## 🩺 DOCTEC – À propos de l'application
+## 🩺 DOCTEQ – À propos de l'application
 
 ### 🔍 Composant `About.jsx`
 
