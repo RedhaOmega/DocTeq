@@ -220,7 +220,7 @@ app.post('/api/chat', async (req, res) => {
             },
             {
                 headers: {
-                    'Authorization': `Bearer 6202VzMRTTbh7lktJNXuLkMoVV2HgP52NBstUZKc`, // Clé API Cohere
+                    'Authorization': ``, // Clé API Cohere
                     'Content-Type': 'application/json'
                 }
             }
@@ -239,8 +239,8 @@ app.post('/api/chatbot', async (req, res) => {
     const { query } = req.body;
 
     // Clé API et ID du moteur de recherche Google Custom Search
-    const API_KEY = 'AIzaSyAV4r3tdt4F4Fd3Fbh665tHN6-Y3W4_d6Q'; // Remplace par ta clé API
-    const SEARCH_ENGINE_ID = '31f98696898384cad'; // Remplace par ton Search Engine ID
+    const API_KEY = ''; // Remplace par ta clé API
+    const SEARCH_ENGINE_ID = ''; // Remplace par ton Search Engine ID
 
     try {
         const response = await axios.get(
